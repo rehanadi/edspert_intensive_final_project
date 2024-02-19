@@ -224,7 +224,7 @@ class DetailContentScreen extends StatelessWidget {
           ),
         ),
         const SizedBox(
-          width: 30,
+          width: 20,
         ),
         Text(
           value,

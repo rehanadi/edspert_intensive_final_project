@@ -21,7 +21,7 @@ class _ListMovieScreenState extends State<ListMovieScreen> {
   final List<MovieModel> listMovieNow = [
     MovieModel(
       title: 'Star Wars : The Last Jedi',
-      shortTitle: 'Star Wars : The Last\nJedi',
+      shortTitle: 'Star Wars : The\nLast Jedi',
       image: ImageDir.imageItem1,
       rating: '4',
       description:
