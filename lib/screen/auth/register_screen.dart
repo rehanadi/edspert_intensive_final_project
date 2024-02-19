@@ -10,7 +10,6 @@ class RegisterScreen extends StatelessWidget {
   static const routeName = '/register-screen';
   const RegisterScreen({super.key});
 
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(

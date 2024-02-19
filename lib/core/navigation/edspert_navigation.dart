@@ -1,3 +1,6 @@
+import 'package:edspert_intensive_final_project/screen/content/buy_ticket_screen.dart';
+import 'package:edspert_intensive_final_project/screen/content/choose_seat_screen.dart';
+import 'package:edspert_intensive_final_project/screen/content/list_movie_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:edspert_intensive_final_project/screen/content/detail_content_screen.dart';
 import 'package:edspert_intensive_final_project/screen/menu/home_screen.dart';
@@ -16,6 +19,9 @@ class EdspertNavigation {
     RegisterScreen.routeName: (context) => const RegisterScreen(),
     HomeScreen.routeName: (context) => const HomeScreen(),
     DetailContentScreen.routeName: (context) => const DetailContentScreen(),
+    BuyTicketScreen.routeName: (context) => const BuyTicketScreen(),
+    ChooseSeatScreen.routeName: (context) => const ChooseSeatScreen(),
+    ListMovieScreen.routeName: (context) => const ListMovieScreen(),
   };
 
   void push(Widget widget) {

@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
     final textTheme = Theme.of(context).textTheme;
 
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'NONTON·ID',
       theme: ThemeData(
         scaffoldBackgroundColor: EdspertColor.primaryColor,
         appBarTheme: const AppBarTheme(
